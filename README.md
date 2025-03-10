@@ -78,16 +78,13 @@ Setting up a new repository on GitHub is a simple process, but there are importa
    - **Public vs. Private**: If you want your project to be open and shareable with the world, select **Public**. Choose **Private** if you’re working on something that shouldn’t be shared.
 
 ### 4. **Optional Initial Setup**
-   - **Initialize with a README**: It’s highly recommended to add a `README.md` file. This file usually contains important project details, like how to install and use the software, contributing guidelines, and more. GitHub will create this file automatically for you if you check the box.
-   - **Add .gitignore**: GitHub provides templates for `.gitignore` based on the technology or programming language you're using (e.g., Node.js, Python). This file tells Git which files or directories to ignore (e.g., compiled files, logs, or system files).
-   - **Choose a License**: Select a license if you want to specify how others can use, modify, and distribute your code. Common licenses include:
-     - **MIT**: A permissive open-source license.
-     - **GPL**: Requires derivative works to also be open source.
-     - **Apache**: Allows you to use the code freely, with some additional protections.
+   - **Initialize with a README**: It’s highly recommended to add a README file. This file usually contains important project details, like how to install and use the software, contributing guidelines, and more. GitHub will create this file automatically for you if you check the box.
+   - **Add .gitignore**: GitHub provides templates for gitignore based on the technology or programming language you're using.
+   - **Choose a License**: Select a license if you want to specify how others can use, modify, and distribute your code.
 
    **Key Decisions**:  
-   - **README**: Choose to include a `README` if you want to provide documentation about the project.
-   - **.gitignore**: Select the appropriate `.gitignore` template for your project type to exclude unnecessary files.
+   - **README**: Choose to include a README if you want to provide documentation about the project.
+   - **.gitignore**: Select the appropriate gitignore template for your project type to exclude unnecessary files.
    - **License**: Decide if and which license you want to use. Without a license, others cannot legally use your code.
 
 ### 5. **Create the Repository**
@@ -96,7 +93,7 @@ Setting up a new repository on GitHub is a simple process, but there are importa
 ### 6. **Clone the Repository Locally**
    - After creating the repository, you’ll be taken to the repository page. To start working on your project locally:
      - Click the green **Code** button and copy the URL (HTTPS or SSH).
-     - In your terminal or Git Bash, run: git clone https://github.com/username/repository-name.git
+     - In your terminal or Git Bash, run: git clone your URL
    - This will create a local copy of the repository, where you can add files, make changes, and push updates.
 
 ### 7. **Start Working on Your Project**
